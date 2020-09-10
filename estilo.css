@@ -1,0 +1,183 @@
+html, body {
+    margin: 0px;
+}
+header{
+    background-color:rgb(14, 99, 6);
+    position: fixed;
+    width: 150px;
+    height: 60px;
+    width: 100%;
+    z-index: 10;
+    border-bottom: rgb(37, 133, 8) 5px solid;
+}
+#logo{
+    width: 50px;
+    padding: 5px;
+    position: absolute;
+    margin-left: 2%;
+}
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 1px;
+    color: white;
+}
+li{
+    float: left;
+    padding: 20 10 20 10;
+    border-radius: 10px;
+}
+li:hover{
+    background-color: yellowgreen;
+}
+
+a {
+    color: black;
+  }
+#capa{
+    background: url("imagens/fundo.jpg");
+    background-repeat: no-repeat;
+    height: 430px;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    border-bottom: rgb(178, 243, 93) 3px solid;
+    
+}
+#titulo{
+    color: black;
+    padding-top: 130px;
+    font-size: 60px;
+}
+#subtitulo{
+    color: black;
+    padding-bottom: 8px;
+    border-top: 3px black solid;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#botao{
+    color: black;
+    border: black 2px solid;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+}
+#video{
+    padding-top: 10px;
+    margin-left: 25%;
+    padding-right: 150px;
+    width: 50%;
+    height: 300px;
+}
+#projeto{
+    background: #f7f7f7;
+    padding: 20px;
+}
+#projeto1{
+    text-align: center;
+    font-size: 30px;
+}
+#central{
+    text-align: justify;
+    width: 800px;
+    height: 100px;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin: auto;
+    font-size: 13px;
+}
+#conteudo{
+    padding: 20px;
+    text-align: center;
+}
+#tituloC{
+    text-align: center;
+    font-size: 25px;
+}
+.icone{
+    width: 70px;
+    border-radius: 30px;
+}
+.icone:hover{
+    background-color: yellowgreen;
+}
+#texto{
+    border: 2px ;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+}
+#texto2{
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+#texto3{
+    border: 2px;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+}
+#linha{
+    height: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 40px;
+    border-top: 5px black solid;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 18px;
+    position: relative;
+    margin-left: 12.5%;
+}
+#producao{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 18px;
+    background: #f7f7f7;
+    margin-top: 50px;
+}
+.imgProd{
+    width: 60%;
+    border-radius: 8px;
+    height: 60%;
+
+}
+#sobre{
+    padding: 20px 20px 20px 20px;
+    font-size: 18px;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 5px rgb(214, 247, 148) solid;
+    height: 70%;
+}
+#minha{
+    width: 50%;
+    border-radius: 360px;
+    height: 90%;
+    padding-top: 15px;
+}
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois{
+    width: 40%;
+}
+footer{
+    background-color: yellowgreen;
+    float: left;
+    width: 100%;
+    border-top: 5px rgb(195, 236, 112) solid;
+}
