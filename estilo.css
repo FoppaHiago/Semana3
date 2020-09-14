@@ -2,19 +2,25 @@ html, body {
     margin: 0px;
 }
 header{
-    background-color:rgb(14, 99, 6);
+    background-color:rgb(24, 129, 14);
     position: fixed;
     width: 150px;
     height: 60px;
     width: 100%;
     z-index: 10;
-    border-bottom: rgb(37, 133, 8) 5px solid;
+    border-bottom: rgb(54, 156, 23) 5px solid;
 }
 #logo{
-    width: 50px;
+    width: 40px;
     padding: 5px;
     position: absolute;
     margin-left: 2%;
+    border: rgb(172, 159, 159) 3px solid;
+    border-radius: 180px;
+    margin-top: 0.2%;
+    margin-bottom: 0.2%;
+    padding: 5 5 5 5;
+    background-color: white;
 }
 #menu{
     float: right;
@@ -22,6 +28,8 @@ header{
     list-style: none;
     margin-top: 1px;
     color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
 li{
     float: left;
@@ -33,7 +41,7 @@ li:hover{
 }
 
 a {
-    color: black;
+    color: white;
     padding: 3 1 3 1;
 }
 a:link {
@@ -70,7 +78,7 @@ a:hover, a:active {
     border: black 2px solid;
     border-radius: 5px;
     padding: 10px 10px 10px 10px;
-    background-color: rgb(223, 250, 159);
+    font-size: 20px;
     font-weight: bold;
 }
 #botao:hover{
@@ -105,6 +113,11 @@ a:hover, a:active {
     margin-right: 20%;
     margin: auto;
     font-size: 13px;
+}
+#ods{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Trebuchet MS',sans-serif;
 }
 #conteudo{
     float: left;
@@ -157,11 +170,12 @@ a:hover, a:active {
     font-size: 18px;
     background: #f7f7f7;
     margin-top: 50px;
+    line-height: 2;
 }
 .imgProd{
-    width: 60%;
+    width: 45%;
     border-radius: 8px;
-    height: 60%;
+    height: 45%;
 
 }
 #sobre{
@@ -187,10 +201,10 @@ a:hover, a:active {
     width: 40%;
 }
 footer{
-    background-color: yellowgreen;
+    background-color: rgb(121, 168, 26);
     float: left;
     width: 100%;
-    border-top: 5px rgb(195, 236, 112) solid;
+    border-top: 5px rgb(138, 180, 52) solid;
 }
 .colunatres{
     float: left;
