@@ -5,7 +5,7 @@ header{
     background-color:rgb(24, 129, 14);
     position: fixed;
     width: 150px;
-    height: 60px;
+    height: 63px;
     width: 100%;
     z-index: 10;
     border-bottom: rgb(54, 156, 23) 5px solid;
@@ -27,7 +27,6 @@ header{
     margin-right: 5%;
     list-style: none;
     margin-top: 1px;
-    color: white;
     font-size: 20px;
     font-weight: bold;
 }
@@ -38,6 +37,7 @@ li{
 }
 li:hover{
     background-color: yellowgreen;
+    font-size: 22px;
 }
 
 a {
@@ -55,15 +55,13 @@ a:hover, a:active {
     background-repeat: no-repeat;
     height: 430px;
     width: 100%;
-    text-align: center;
     background-size: cover;
-    border-bottom: rgb(178, 243, 93) 3px solid;   
+    border-bottom: rgb(178, 243, 93) 3px solid;  
 }
 #titulo{
     color: black;
     padding-top: 130px;
     font-size: 60px;
-    font-size:5vw
 }
 #subtitulo{
     color: black;
@@ -71,7 +69,6 @@ a:hover, a:active {
     border-top: 3px black solid;
     margin-left: 30%;
     margin-right: 30%;
-    font-size:1.8vw
 }
 #botao{
     color: black;
@@ -83,6 +80,7 @@ a:hover, a:active {
 }
 #botao:hover{
     background-color: rgb(213, 247, 93);
+    font-size: 23px;
 }
 #video{
     padding-top: 10px;
@@ -96,12 +94,11 @@ a:hover, a:active {
     border-right: rgb(178, 243, 93) 3px solid;
 }
 #projeto{
-    background: #f7f7f7;
+    background: #f0ebeb;
     padding: 20px;
     
 }
 #projeto1{
-    text-align: center;
     font-size: 30px;
 }
 #central{
@@ -115,7 +112,6 @@ a:hover, a:active {
     font-size: 13px;
 }
 #ods{
-    text-align: center;
     font-size: 18px;
     font-family: 'Trebuchet MS',sans-serif;
 }
@@ -125,7 +121,6 @@ a:hover, a:active {
     padding: 20 10 20 10;
 }
 #tituloC{
-    text-align: center;
     font-size: 25px;
 }
 .icone{
@@ -134,28 +129,6 @@ a:hover, a:active {
 }
 .icone:hover{
     background-color: yellowgreen;
-}
-#texto{
-    border: 2px ;
-    text-align: center;
-    width: 300px;
-    height: 200px;
-    padding: 10px;
-}
-#texto2{
-    text-align: center;
-    width: 300px;
-    height: 200px;
-    padding-left: 20px;
-    padding-right: 20px;
-    
-}
-#texto3{
-    border: 2px;
-    text-align: center;
-    width: 300px;
-    height: 200px;
-    padding: 10px;
 }
 #linha{
     height: 10px;
@@ -166,9 +139,8 @@ a:hover, a:active {
 }
 #producao{
     padding: 20 10 20 10;
-    text-align: center;
     font-size: 18px;
-    background: #f7f7f7;
+    background: #f0ebeb;
     margin-top: 50px;
     line-height: 2;
 }
@@ -181,7 +153,6 @@ a:hover, a:active {
 #sobre{
     padding: 20px 20px 20px 20px;
     font-size: 18px;
-    text-align: center;
     font-size: 18px;
     border-bottom: 5px rgb(214, 247, 148) solid;
     height: 70%;
@@ -220,4 +191,65 @@ footer{
 #nome{
     font-weight: bold;
     font-size: 20px;
+}
+.centralizado{
+    text-align: center;
+}
+@media all and (max-width: 768px){
+    #menu{
+        visibility: hidden;
+    }
+    header{
+        width: 85%;
+    }
+    #capa{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 1px auto;
+        float: none;
+        width: 100%;
+        height: 65%;
+    }
+    #titulo{
+        font-size: 40px;
+    }
+    #subtitulo{
+        font-size: 20px;
+        margin: 5 5 5 5;
+        padding-bottom: 15px;
+    }
+    #video{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #central{
+        text-align: justify;
+        width: 80%;
+        height: 40%;
+    }
+    .colunatres{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    .imgProd{
+        width: 80%;
+    }
+    #minha{
+        width: 50%;
+        height: 50%;
+    }
+    #sobre{
+        width: 100%;
+        height: 60%;
+    }
+    #eu{
+        text-align: justify;
+    }
+    footer{
+        border-bottom: olivedrab 8px solid;
+    }
 }
